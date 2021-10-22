@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane prefHeight="800.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.DrinkController">
+   <content>
+      <AnchorPane prefHeight="2250.0" prefWidth="750.0" style="-fx-background-color: #20120F;">
+      	<children>
+      		<ImageView fitHeight="121.0" fitWidth="147.0" layoutX="32.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@img/logo.png" />
+      			</image>
+      		</ImageView>
+      		<Text fill="#ffc500" layoutX="179.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drink">
+      			<font>
+      				<Font size="55.0" />
+      			</font>
+      		</Text>
+      		<Line endX="587.0" layoutX="133.0" layoutY="169.0" startX="-100.0" stroke="#ffc500" strokeWidth="3.0" />
+            <ImageView fitHeight="205.0" fitWidth="166.0" layoutX="23.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/코카콜라.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="154.0" fitWidth="121.0" layoutX="582.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/코카콜라제로.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu52" layoutX="62.0" layoutY="304.0" mnemonicParsing="false"  style="-fx-background-color: #86152f;" text="코카콜라S" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu55" layoutX="583.0" layoutY="304.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="코카콜라제로S" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="113.0" fitWidth="172.0" layoutX="426.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/스프라이트.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu58" layoutX="409.0" layoutY="507.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="스프라이트S" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="592.0" layoutY="28.0" text="Total." textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="54.0" text="CAR :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="76.0" text="PRO :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="99.0" text="FAT :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="124.0" text="CAL :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="carLabel" layoutX="672.0" layoutY="54.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="proLabel" layoutX="672.0" layoutY="76.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="fatLabel" layoutX="672.0" layoutY="99.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="calLabel" layoutX="672.0" layoutY="124.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="133.0" fitWidth="131.0" layoutX="225.0" layoutY="772.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/아메리카노.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu65" layoutX="238.0" layoutY="907.0" mnemonicParsing="false"  style="-fx-background-color: #86152f;" text="아메리카노S" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="123.0" fitWidth="167.0" layoutX="43.0" layoutY="966.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/카푸치노.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu68" layoutX="68.0" layoutY="1100.0" mnemonicParsing="false"  style="-fx-background-color: #86152f;" text="카푸치노S" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="117.0" fitWidth="121.0" layoutX="227.0" layoutY="584.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/환타.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu61" layoutX="256.0" layoutY="716.0" mnemonicParsing="false"  style="-fx-background-color: #86152f;" text="환타S" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="100.0" fitWidth="165.0" layoutX="32.0" layoutY="787.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/에스프레소.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu64" layoutX="64.0" layoutY="907.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="에스프레소" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu71" layoutX="601.0" layoutY="1100.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="카페라떼S" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="205.0" fitWidth="166.0" layoutX="202.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/코카콜라.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu53" layoutX="239.0" layoutY="304.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="코카콜라M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="205.0" fitWidth="166.0" layoutX="378.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/코카콜라.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu54" layoutX="417.0" layoutY="304.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="코카콜라L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="154.0" fitWidth="121.0" layoutX="225.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/코카콜라제로.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu57" layoutX="226.0" layoutY="507.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="코카콜라제로L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="154.0" fitWidth="121.0" layoutX="49.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/코카콜라제로.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu56" layoutX="50.0" layoutY="507.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="코카콜라제로M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="113.0" fitWidth="172.0" layoutX="608.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/스프라이트.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu59" layoutX="591.0" layoutY="507.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="스프라이트M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="113.0" fitWidth="172.0" layoutX="77.0" layoutY="586.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/스프라이트.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu60" layoutX="60.0" layoutY="716.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="스프라이트L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="117.0" fitWidth="121.0" layoutX="403.0" layoutY="584.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/환타.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu62" layoutX="432.0" layoutY="716.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="환타M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="117.0" fitWidth="121.0" layoutX="587.0" layoutY="582.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/환타.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu63" layoutX="616.0" layoutY="714.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="환타L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="133.0" fitWidth="131.0" layoutX="398.0" layoutY="772.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/아메리카노.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu66" layoutX="411.0" layoutY="907.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="아메리카노M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="133.0" fitWidth="131.0" layoutX="577.0" layoutY="772.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/아메리카노.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu67" layoutX="590.0" layoutY="907.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="아메리카노L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="123.0" fitWidth="167.0" layoutX="221.0" layoutY="966.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/카푸치노.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu69" layoutX="246.0" layoutY="1100.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="카푸치노M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="123.0" fitWidth="167.0" layoutX="396.0" layoutY="966.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/카푸치노.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu70" layoutX="421.0" layoutY="1100.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="카푸치노L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="136.0" fitWidth="147.0" layoutX="573.0" layoutY="960.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/카페라떼.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu72" layoutX="65.0" layoutY="1285.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="카페라떼M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="136.0" fitWidth="147.0" layoutX="42.0" layoutY="1146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/카페라떼.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu73" layoutX="246.0" layoutY="1285.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="카페라떼L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="136.0" fitWidth="147.0" layoutX="225.0" layoutY="1145.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/카페라떼.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu74" layoutX="394.0" layoutY="1285.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="아이스아메리카노M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="118.0" fitWidth="116.0" layoutX="410.0" layoutY="1155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/아이스아메리카노.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu75" layoutX="567.0" layoutY="1285.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="아이스아메리카노L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="118.0" fitWidth="116.0" layoutX="583.0" layoutY="1155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/아이스아메리카노.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu76" layoutX="41.0" layoutY="1467.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="아이스카페라떼M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="138.0" fitWidth="154.0" layoutX="43.0" layoutY="1337.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/아이스카페라떼.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu77" layoutX="226.0" layoutY="1467.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="아이스카페라떼L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="138.0" fitWidth="154.0" layoutX="227.0" layoutY="1337.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/아이스카페라떼.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu78" layoutX="418.0" layoutY="1467.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="아이스커피M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="138.0" fitWidth="154.0" layoutX="402.0" layoutY="1333.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/아이스커피.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu79" layoutX="592.0" layoutY="1467.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="아이스커피L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="138.0" fitWidth="154.0" layoutX="576.0" layoutY="1333.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/아이스커피.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu80" layoutX="29.0" layoutY="1657.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="프리미엄로스팅커피S" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="116.0" fitWidth="140.0" layoutX="35.0" layoutY="1529.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/프리미엄%20로스트커피.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu81" layoutX="208.0" layoutY="1657.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="프리미엄로스팅커피M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="116.0" fitWidth="140.0" layoutX="214.0" layoutY="1529.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/프리미엄%20로스트커피.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu82" layoutX="398.0" layoutY="1657.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="프리미엄로스팅커피L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="116.0" fitWidth="140.0" layoutX="396.0" layoutY="1529.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/프리미엄%20로스트커피.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu83" layoutX="620.0" layoutY="1657.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="우유" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="136.0" fitWidth="111.0" layoutX="587.0" layoutY="1522.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/우유.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu84" layoutX="82.0" layoutY="1842.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="생수" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="154.0" fitWidth="109.0" layoutX="69.0" layoutY="1709.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/생수.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu85" layoutX="238.0" layoutY="1842.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="오렌지주스" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="138.0" fitWidth="149.0" layoutX="215.0" layoutY="1704.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/오렌지주스.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu86" layoutX="412.0" layoutY="1842.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="바닐라쉐이크M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="182.0" fitWidth="230.0" layoutX="382.0" layoutY="1672.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/바닐라쉐이크.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu87" layoutX="583.0" layoutY="1844.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="바닐라쉐이크L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="182.0" fitWidth="230.0" layoutX="553.0" layoutY="1674.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/바닐라쉐이크.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu88" layoutX="59.0" layoutY="2072.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="딸기쉐이크M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="182.0" fitWidth="230.0" layoutX="30.0" layoutY="1890.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/딸기쉐이크.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu89" layoutX="239.0" layoutY="2072.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="딸기쉐이크L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="182.0" fitWidth="230.0" layoutX="202.0" layoutY="1890.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/딸기쉐이크.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu90" layoutX="426.0" layoutY="2072.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="초코쉐이크M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="182.0" fitWidth="230.0" layoutX="391.0" layoutY="1890.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/초코쉐이크.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu91" layoutX="599.0" layoutY="2072.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="초코쉐이크L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="182.0" fitWidth="230.0" layoutX="564.0" layoutY="1890.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/drink/초코쉐이크.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="433.0" layoutY="28.0" text="Standard." textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="473.0" layoutY="54.0" text="CAR :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="473.0" layoutY="76.0" text="PRO :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="473.0" layoutY="99.0" text="FAT :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="473.0" layoutY="124.0" text="CAL :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="carLabel1" layoutX="532.0" layoutY="54.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="proLabel1" layoutX="532.0" layoutY="76.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="fatLabel1" layoutX="532.0" layoutY="99.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="calLabel1" layoutX="532.0" layoutY="124.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="pass4" layoutX="354.0" layoutY="2149.0" mnemonicParsing="false" onAction="#movePage" style="-fx-background-color: #1f2743;" text="Next" textFill="#ffc500">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+      		
+      	</children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

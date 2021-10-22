@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane prefHeight="800.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.SideController">
+   <content>
+      <AnchorPane prefHeight="1400.0" prefWidth="750.0" style="-fx-background-color: #20120F;">
+      	<children>
+      		<ImageView fitHeight="121.0" fitWidth="147.0" layoutX="32.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@img/logo.png" />
+      			</image>
+      		</ImageView>
+      		<Text fill="#ffc500" layoutX="179.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Side&amp;Dessert">
+      			<font>
+      				<Font size="32.0" />
+      			</font>
+      		</Text>
+      		<Line endX="587.0" layoutX="133.0" layoutY="169.0" startX="-100.0" stroke="#ffc500" strokeWidth="3.0" />
+            <ImageView fitHeight="134.0" fitWidth="89.0" layoutX="62.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/후렌치후라이.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="122.0" fitWidth="130.0" layoutX="577.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/해쉬브라운.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu31" layoutX="47.0" layoutY="304.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="후렌치후라이S" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu34" layoutX="592.0" layoutY="304.0" mnemonicParsing="false"  style="-fx-background-color: #86152f;" text="해쉬브라운" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="121.0" fitWidth="168.0" layoutX="23.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/치킨스낵랩.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="118.0" fitWidth="169.0" layoutX="204.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/비프스낵랩.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="113.0" fitWidth="172.0" layoutX="373.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/맥너겟.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu35" layoutX="58.0" layoutY="507.0" mnemonicParsing="false"  style="-fx-background-color: #86152f;" text="치킨스낵랩" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu36" layoutX="237.0" layoutY="507.0" mnemonicParsing="false"  style="-fx-background-color: #86152f;" text="비프스낵랩" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu37" layoutX="405.0" layoutY="507.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="맥너겟 4조각" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="121.0" fitWidth="178.0" layoutX="377.0" layoutY="572.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/치킨텐더.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu41" layoutX="398.0" layoutY="716.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="치킨텐더 2조각" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="592.0" layoutY="28.0" text="Total." textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="54.0" text="CAR :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="76.0" text="PRO :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="99.0" text="FAT :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="124.0" text="CAL :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="carLabel" layoutX="672.0" layoutY="54.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="proLabel" layoutX="672.0" layoutY="76.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="fatLabel" layoutX="672.0" layoutY="99.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="calLabel" layoutX="672.0" layoutY="124.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="155.0" fitWidth="176.0" layoutX="212.0" layoutY="759.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/맥윙.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu44" layoutX="242.0" layoutY="921.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="맥윙 2조각" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="145.0" fitWidth="198.0" layoutX="32.0" layoutY="965.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/파인애플%20후룻컵.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="142.0" fitWidth="93.0" layoutX="256.0" layoutY="966.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/오레오%20맥플러리.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="239.0" fitWidth="180.0" layoutX="373.0" layoutY="921.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/선데이.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu47" layoutX="41.0" layoutY="1121.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="파인애플 후룻컵" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu48" layoutX="225.0" layoutY="1121.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="오레오 맥플러리" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu49" layoutX="401.0" layoutY="1121.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="바닐라 선데이" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="134.0" fitWidth="89.0" layoutX="243.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/후렌치후라이.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu32" layoutX="228.0" layoutY="304.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="후렌치후라이M" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="134.0" fitWidth="89.0" layoutX="414.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/후렌치후라이.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu33" layoutX="399.0" layoutY="303.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="후렌치후라이L" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="113.0" fitWidth="172.0" layoutX="555.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/맥너겟.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu38" layoutX="586.0" layoutY="507.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="맥너겟 6조각" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="113.0" fitWidth="172.0" layoutX="23.0" layoutY="586.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/맥너겟.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu39" layoutX="46.0" layoutY="716.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="맥너겟 10조각" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="113.0" fitWidth="172.0" layoutX="205.0" layoutY="586.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/맥너겟.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu40" layoutX="230.0" layoutY="716.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="맥너겟 20조각" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="121.0" fitWidth="178.0" layoutX="559.0" layoutY="572.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/치킨텐더.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu42" layoutX="580.0" layoutY="716.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="치킨텐더 4조각" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="121.0" fitWidth="178.0" layoutX="19.0" layoutY="777.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/치킨텐더.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu43" layoutX="46.0" layoutY="921.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="치킨텐더 4조각" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="155.0" fitWidth="176.0" layoutX="383.0" layoutY="759.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/맥윙.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu45" layoutX="414.0" layoutY="921.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="맥윙 4조각" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="155.0" fitWidth="176.0" layoutX="562.0" layoutY="759.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/맥윙.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu46" layoutX="592.0" layoutY="921.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="맥윙 8조각" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="239.0" fitWidth="180.0" layoutX="554.0" layoutY="921.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/선데이.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu50" layoutX="583.0" layoutY="1121.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="카라멜 선데이" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="239.0" fitWidth="180.0" layoutX="24.0" layoutY="1128.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/side_dessert/선데이.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="menu51" layoutX="59.0" layoutY="1325.0" mnemonicParsing="false" style="-fx-background-color: #86152f;" text="딸기 선데이" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="430.0" layoutY="28.0" text="Standard." textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="476.0" layoutY="54.0" text="CAR :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="476.0" layoutY="76.0" text="PRO :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="476.0" layoutY="99.0" text="FAT :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="476.0" layoutY="124.0" text="CAL :" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="carLabel1" layoutX="535.0" layoutY="54.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="proLabel1" layoutX="535.0" layoutY="76.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="fatLabel1" layoutX="535.0" layoutY="99.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="calLabel1" layoutX="535.0" layoutY="124.0" text="???" textFill="#ffc500">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+      	
+           <Button fx:id="pass3" layoutX="346.0" layoutY="1353.0" mnemonicParsing="false" onAction="#movePage" style="-fx-background-color: #0a0e35;" text="Next" textFill="#ffc500">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+
+      	</children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
